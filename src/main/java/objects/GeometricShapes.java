@@ -1,3 +1,5 @@
+package objects;
+
 public class GeometricShapes {
     private String shape_name;
     private int numberOfSides;

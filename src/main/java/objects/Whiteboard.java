@@ -1,3 +1,5 @@
+package objects;
+
 public class Whiteboard {
     private double size;
 

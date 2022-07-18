@@ -1,3 +1,5 @@
+package objects;
+
 public class Point {
     private int x_coordinate;
     private int y_coordinate;

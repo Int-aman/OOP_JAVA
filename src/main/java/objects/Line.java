@@ -1,3 +1,5 @@
+package objects;
+
 public class Line {
     private double length;
     private String colour;

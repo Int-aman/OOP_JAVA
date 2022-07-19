@@ -33,3 +33,22 @@ tasks.named('test') {
     // Use TestNG for unit tests.
     useTestNG()
 }
+
+task demoTask {
+    group "Custom task"
+    description("Gradle custom task example")
+    doLast {
+        println("Welcome to gradle, this is a custom task example.")
+    }
+}
+
+task secondDemoTAsk{
+    group "Custom task"
+    description("Gradle custom task example (doFirst and doLast)")
+    doLast {
+        println("Thank you, tata, bye bye")
+    }
+    doFirst {
+        println("Welcome, this is custom task created by Aman")
+    }
+}

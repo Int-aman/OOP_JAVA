@@ -23,7 +23,7 @@ public class PumpkinSoup {
         return this;
     }
     public PumpkinSoup finishingUp(){
-        System.out.println("Allow to coll slightly, then blend in batches.");
+        System.out.println("Allow to cool slightly, then blend in batches.");
         System.out.println("Stir through cream and reheat gently");
         System.out.println("Season and Serve, Enjoy!!");
         return this;

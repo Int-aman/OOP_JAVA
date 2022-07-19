@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.ultralesson.oopjava.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-18T11:34:17" hostname="POPE-INDER" time="0.0">
+<testsuite name="com.ultralesson.oopjava.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-19T05:55:32" hostname="POPE-INDER" time="0.009">
   <properties/>
-  <testcase name="appHasAGreeting" classname="com.ultralesson.oopjava.AppTest" time="0.0"/>
+  <testcase name="appHasAGreeting" classname="com.ultralesson.oopjava.AppTest" time="0.009"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

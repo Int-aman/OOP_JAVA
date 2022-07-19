@@ -1,4 +1,4 @@
-package objects;
+package com.ultralesson.oopjava.objects;
 
 public class Point {
     private int x_coordinate;

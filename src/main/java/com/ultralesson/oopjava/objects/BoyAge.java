@@ -1,4 +1,4 @@
-package objects;
+package com.ultralesson.oopjava.objects;
 
 import javax.swing.*;
 

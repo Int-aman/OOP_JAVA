@@ -29,5 +29,15 @@ public class PumpkinSoup {
         return this;
     }
 
+    public static void main(String[] args) {
+        PumpkinSoup soup = new PumpkinSoup();
+        soup
+                .heatingSaucepan()
+                .addingVegetables(4)
+                .addingSpices()
+                .addPumpkin("Potato",30)
+                .finishingUp();
+    }
+
 
 }

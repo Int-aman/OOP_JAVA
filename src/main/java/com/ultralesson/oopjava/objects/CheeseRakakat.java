@@ -22,4 +22,13 @@ public class CheeseRakakat {
         System.out.println("Enjoy your Cheese rolls with "+dip+"!");
         return this;
     }
+
+    public static void main(String[] args) {
+        CheeseRakakat rolls = new CheeseRakakat();
+        rolls
+                .mixing()
+                .rollingAndFolding()
+                .cooking()
+                .serving("Ketchup");
+    }
 }

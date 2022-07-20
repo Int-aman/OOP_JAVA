@@ -19,5 +19,28 @@ public class GeometricShapes {
         System.out.println("Perimeter: " + perimeter);
         System.out.println("Number of sides: " + numberOfSides);
     }
-    // TODO - Implement area(),perimeter() function
+
+    public void calculateArea(){
+        // to be implemented in child classes
+    }
+    public void calculatePerimeter(){
+        // to be implemented in child classes
+    }
+
+    //getters
+    public double getArea() {
+        return area;
+    }
+
+    public double getPerimeter() {
+        return perimeter;
+    }
+
+    public int getNumberOfSides() {
+        return numberOfSides;
+    }
+
+    public String getShapeName() {
+        return shapeName;
+    }
 }

@@ -15,7 +15,31 @@ public class Pencil {
     }
 
     public void sharpen(){
-        System.out.println("Pencil is sharpenend.");
+        System.out.println("Pencil is sharpened.");
         length -= 1;
+    }
+
+    public int getLength() {
+        return length;
+    }
+
+    public void setLength(int length) {
+        this.length = length;
+    }
+
+    public String getColour() {
+        return Colour;
+    }
+
+    public void setColour(String colour) {
+        Colour = colour;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
     }
 }

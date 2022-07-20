@@ -13,10 +13,28 @@ public class Animals {
         this.species = species;
         this.commonName = commonName;
     }
-    public void setCarnivorous(boolean isCarnivorous){
-        this.carnivorous = isCarnivorous;
+
+    public void setCarnivorous(boolean carnivorous) {
+        this.carnivorous = carnivorous;
     }
-    public boolean isCarnivorous(){return carnivorous;}
+
+    public void setCommonName(String commonName) {
+        this.commonName = commonName;
+    }
+
+    public void setPhylum(String phylum) {
+        this.phylum = phylum;
+    }
+
+    public void setLivingEcosystem(String livingEcosystem) {
+        this.livingEcosystem = livingEcosystem;
+    }
+
+    public void setSpecies(String species) {
+        this.species = species;
+    }
+
+    public boolean getIsCarnivorous(){return carnivorous;}
     public String getCommonName(){return commonName;}
     public String getPhylum(){return phylum;}
     public String getLivingEcosystem(){return livingEcosystem;}

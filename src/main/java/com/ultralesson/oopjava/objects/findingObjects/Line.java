@@ -16,4 +16,20 @@ public class Line {
     public void eraseLine(double decreaseInLength){
         length -= decreaseInLength;
     }
+
+    public void setLength(double length) {
+        this.length = length;
+    }
+
+    public void setColour(String colour) {
+        this.colour = colour;
+    }
+
+    public double getLength() {
+        return length;
+    }
+
+    public String getColour() {
+        return colour;
+    }
 }

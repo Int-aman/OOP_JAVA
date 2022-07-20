@@ -1,7 +1,7 @@
 package com.ultralesson.oopjava.objects.constructors;
 
 public class Hairstyles {
-    private String colour;//todo implement using object - hairstyle
+    private String colour;// todo implement using object - hairstyle
     private String style;// todo implement using object - colour
 
     public Hairstyles(){

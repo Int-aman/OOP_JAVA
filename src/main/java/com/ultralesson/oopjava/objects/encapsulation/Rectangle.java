@@ -10,14 +10,28 @@ public class Rectangle {
         this.width = width;
     }
 
-    public void increaseDimensions(){
-        length += 1;
+    public void increaseWidth(){
         width += 1;
     }
-
-    public void increaseDimensions(int newLength, int newWidth){
-        length = newLength;
-        width = newWidth;
+    public void increaseLength(){
+        length += 1;
     }
-//Todo separate function for length & width, getter and setter
+
+    public void increaseWidthBy(int width) {
+        if(width>0)
+            this.width += width;
+    }
+
+    public void increaseLengthBy(int length) {
+        if(length>0)
+            this.length += length;
+    }
+
+    public int getLength() {
+        return length;
+    }
+
+    public int getWidth() {
+        return width;
+    }
 }

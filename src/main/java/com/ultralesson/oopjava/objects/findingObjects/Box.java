@@ -13,12 +13,46 @@ public class Box {
         this.breadth = breadth;
         this.length = length;
         this.material = material;
+        isEmpty = true;
+        isFull = false;
     }
 
-    public double showVolume(){
+    public double getVolume(){
         double volume = height*length*breadth;
-        System.out.println(volume);
         return volume;
     }
 
+    public void setFull(boolean full) {
+        isFull = full;
+    }
+
+    public void setEmpty(boolean empty) {
+        isEmpty = empty;
+    }
+
+    //getters
+
+    public double getHeight() {
+        return height;
+    }
+
+    public double getBreadth() {
+        return breadth;
+    }
+
+    public double getLength() {
+        return length;
+    }
+
+    public boolean isFull() {
+        return isFull;
+    }
+
+    public boolean isEmpty() {
+        return isEmpty;
+    }
+
+    public String getMaterial() {
+        return material;
+    }
 }

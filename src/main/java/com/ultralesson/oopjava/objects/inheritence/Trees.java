@@ -5,6 +5,23 @@ public class Trees extends Plants{
     private boolean generateSeeds;
     private double height;
     private int age;
+
+    public void setForest(String forest) {
+        this.forest = forest;
+    }
+
+    public void setGenerateSeeds(boolean generateSeeds) {
+        this.generateSeeds = generateSeeds;
+    }
+
+    public void setHeight(double height) {
+        this.height = height;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
     public Trees(String commonName, String livingEcosystem, String species, boolean isVascular) {
         super(commonName, livingEcosystem, species, true);
     }

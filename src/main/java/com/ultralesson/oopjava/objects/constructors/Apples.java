@@ -1,8 +1,8 @@
 package com.ultralesson.oopjava.objects.constructors;
 
 public class Apples {
-    private String type;
-    private String taste;
+    private String type; //todo object of apple_type
+    private String taste;//todo object of apple_taste
 
     public Apples(){
         this.type = "Golden Delicious";

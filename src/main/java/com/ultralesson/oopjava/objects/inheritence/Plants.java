@@ -16,7 +16,23 @@ public class Plants {
     public String getLivingEcosystem(){return livingEcosystem;}
     public String getSpecies(){return species;}
 
-    public boolean isVascular() {
+    public void setCommonName(String commonName) {
+        this.commonName = commonName;
+    }
+
+    public void setLivingEcosystem(String livingEcosystem) {
+        this.livingEcosystem = livingEcosystem;
+    }
+
+    public void setSpecies(String species) {
+        this.species = species;
+    }
+
+    public void setVascular(boolean vascular) {
+        isVascular = vascular;
+    }
+
+    public boolean getIsVascular() {
         return isVascular;
     }
 }

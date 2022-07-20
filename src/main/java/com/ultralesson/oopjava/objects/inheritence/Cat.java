@@ -15,8 +15,12 @@ public class Cat extends Animals{
     public void setBreed(String breed){
         this.breed = breed;
     }
-    public void showDetails(){
-        System.out.println("Breed :"+breed);
-        System.out.println("Colour :" +colour);
+
+    public String getBreed() {
+        return breed;
+    }
+
+    public String getColour() {
+        return colour;
     }
 }
